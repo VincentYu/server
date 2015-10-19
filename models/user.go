@@ -47,7 +47,7 @@ func (u *User) CheckValid() error {
 }
 
 func (u *User) EncodePassword() error {
-	u.Password = utils.EncodeMd5(u.Password)
+	//u.Password = utils.EncodeMd5(u.Password)
 	return nil
 }
 
